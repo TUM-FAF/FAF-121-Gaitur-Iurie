@@ -23,7 +23,7 @@ char* getWord();
 #define POMEGRANTE RGB(20,20,20)
 HINSTANCE hInst;
 int items, focused = 0;
-char *tempLink=NULL;
+char *tempLink = NULL;
 char **words;
 /*  Make the class name into a global variable  */
 char szClassName[ ] = "CodeBlocksWindowsApp";
