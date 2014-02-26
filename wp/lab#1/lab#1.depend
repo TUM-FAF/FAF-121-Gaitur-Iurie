@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1393352680 source:d:\university\utm\semestrul iv\windows_programming\lab#1\main.cpp
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<time.h>
+
+1391514765 source:d:\university\utm\semestrul iv\windows_programming\lab#1\mainwindow.cpp
+
