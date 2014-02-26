@@ -10,8 +10,8 @@ using namespace std;
 /*  Declare Windows procedure  */
 LRESULT CALLBACK WindowProcedure (HWND, UINT, WPARAM, LPARAM);
 bool startsWith(char *pre, char *str);
-void getDictionary();
 bool inDictionary(char * value, char **dict);
+void getDictionary();
 char* getWord();
 
 #define IDC_ADD_BUTTON 100
@@ -225,6 +225,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
                     RedrawWindow(hwnd, NULL, NULL, RDW_INVALIDATE | RDW_ERASE);
                 }
                 break;
+                
                 case IDC_TEXT_INPUT:
                 {
                     if(HIWORD(wParam) == EN_SETFOCUS)
@@ -257,6 +258,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
                     }
                 }
                 break;
+                
                 case IDC_RESTART_BUTTON:
                 {
                       if(HIWORD(wParam) == BN_CLICKED)
@@ -277,7 +279,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
         break;
 
         case WM_CLOSE:
-            {
+        {
                 RECT rect;
                 GetWindowRect(hwnd,&rect);
                 width = rect.right - rect.left;
@@ -289,18 +291,19 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
                 randHeight = rand()%(maxHeight);
 
                 MoveWindow(hwnd,randWidth,randHeight,width,height,TRUE);
-            }
-            break;
+         }
+         break;
+            
         case WM_DESTROY:
-            {
+        {
                 KillTimer(hwnd, TIMER_GAME);
                 MessageBox(NULL,"Whyyyyyyyy :D ","Message",MB_OK);
                 PostQuitMessage (0);
-            }    /* send a WM_QUIT to the message queue */
-            break;
+        }    /* send a WM_QUIT to the message queue */
+        break;
         //min and max window size
         case WM_GETMINMAXINFO:
-            {
+        {
                 LPMINMAXINFO lpInfo;
                 lpInfo = (LPMINMAXINFO)lParam;
 
@@ -334,13 +337,13 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 
                 lpInfo->ptMaxTrackSize = maxSize;
 
-            }
-            break;
+        }
+        break;
 
 
 
         case WM_PAINT:
-            {
+        {
                 PAINTSTRUCT ps;
                 hdc = BeginPaint(hwnd,&ps);
                 GetClientRect(hwnd,&rect);
@@ -371,8 +374,8 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
                 sprintf(stBuffer, "%i", score);
                 TextOut(hdc,460,100,stBuffer,strlen(stBuffer));
                 EndPaint(hwnd,&ps);
-            }
-            break;
+        }
+        break;
 
         case WM_TIMER:
         {
@@ -384,7 +387,8 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
                 break;
             }
         }
-            break;
+        break;
+        
         default:                      /* for messages that we don't deal with */
             return DefWindowProc (hwnd, message, wParam, lParam);
     }
