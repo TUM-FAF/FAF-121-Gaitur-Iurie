@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1393863531 source:d:\university\utm\semestrul iv\windows_programming\lab#2\main.cpp
+	"resources.h"
+	"header.h"
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<time.h>
+
+1393863643 source:d:\university\utm\semestrul iv\windows_programming\lab#2\resources.rc
+	"afxres.h"
+
+1393863508 d:\university\utm\semestrul iv\windows_programming\lab#2\resources.h
+
+1393863571 d:\university\utm\semestrul iv\windows_programming\lab#2\header.h
+

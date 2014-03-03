@@ -1,0 +1,13 @@
+﻿#include "resources.h"
+
+#include "afxres.h"
+
+//Icon location
+
+IDI_ICON  ICON DISCARDABLE "icon.ico"
+
+//Cursor location
+
+IDI_CURSOR CURSOR DISCARDABLE "cursor.cur"
+
+IDB_BACKGROUND_1 BITMAP DISCARDABLE "back-1.bmp"
