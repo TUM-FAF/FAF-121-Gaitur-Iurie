@@ -37,6 +37,7 @@
 			<Add library="kernel32" />
 			<Add library="comctl32" />
 		</Linker>
+		<Unit filename="1.bmp" />
 		<Unit filename="1393879303_172064.ico" />
 		<Unit filename="back-1.bmp" />
 		<Unit filename="cur1054.cur" />
