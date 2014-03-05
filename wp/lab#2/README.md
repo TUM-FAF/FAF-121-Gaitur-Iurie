@@ -51,6 +51,6 @@ I thought that it will be better if I will continue to develop my game, this way
   Functionality
 ================
 
-![screenshot1] (https://raw.github.com/TUM-FAF/FAF-121-Gaitur-Iurie/blob/master/wp/lab%232/Screenshot_7.png)
+![screenshot1] (https://raw.github.com/TUM-FAF/FAF-121-Gaitur-Iurie/master/wp/lab%232/Screenshot_7.png)
   
   
