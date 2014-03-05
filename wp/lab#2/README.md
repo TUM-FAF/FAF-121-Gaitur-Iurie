@@ -45,7 +45,7 @@ I thought that it will be better if I will continue to develop my game, this way
   At the end I just added the scroll bars for the app that will change the position of the app.
   
   
-  
-  
+  Functionaliti
+================
   
   
