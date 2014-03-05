@@ -6,6 +6,7 @@ Advanced Form Elements. Child Windowses. Basics of Working With Keyboard.
 
 Contents
 ---------------------------
+
 -The keyboard
 -Child windows control
   - Scroll Bar
@@ -15,6 +16,7 @@ Contents
 
 Mandatory Objectives (completed)
 --------------------------------
+
 - Display a dialog box on some event.
 - Add a system menu to your application with at least 3 items.
 - Add a scroll bar that will change any visible parameter of any other element.
@@ -22,6 +24,7 @@ Mandatory Objectives (completed)
 
 Objectives With Points (completed)
 ----------------------------------
+
 - Add a listbox and attach some events when any element is accessed (double-clicked). **(2 pt)**
 - Add 2 scroll bars that will manage main window size or position. **(1 pt)**
 - Customize your application by adding an icon and using different cursor in application. **(1 pt)**
@@ -45,7 +48,9 @@ I thought that it will be better if I will continue to develop my game, this way
   At the end I just added the scroll bars for the app that will change the position of the app.
   
   
-  Functionaliti
+  Functionality
 ================
+
+![screenshot1] (https://github.com/TUM-FAF/FAF-121-Gaitur-Iurie/blob/master/wp/lab%232/Screenshot_7.png)
   
   
