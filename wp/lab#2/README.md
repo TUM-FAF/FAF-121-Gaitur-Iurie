@@ -41,9 +41,9 @@ I thought that it will be better if I will continue to develop my game, this way
   
   I thought that will be more interesting if the application will have 2 backgrounds and the user could change the background by pressing the combination Ctrl + Space or by setting the background image in the Edit menu list.Also I added the combination Ctrl + Q that will close the app.
   
-  Next step was declaration of the icon and cursor for the application and to set them in app, it was piece of cacke.
+  Next step was declaration of the icon and cursor for the application and to set them in app, it was piece of cake.
   
-  Then I wanted to make  my edit box with guessed words clickable, but I encountered some problems because there is no such event for a edit box.So I resolved this problem by changing my edit box with guessed words with a list bax and it worked fine.
+  Then I wanted to make  my edit box with guessed words clickable, but I encountered some problems because there is no such event for a edit box.So I resolved this problem by changing my edit box with guessed words with a list box and it worked fine.
   
   At the end I just added the scroll bars for the app that will change the position of the app.
   
