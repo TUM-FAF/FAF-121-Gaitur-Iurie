@@ -31,4 +31,4 @@ Also it was interesting because it was the first time when I connected by an SSH
 I found the vim and the basics terminal commands like:ls,mkdir,cat,cp,rm and cd.Also I learned some new commands in vim.
 
 ##Practical Work
-Some of them are used for working with files another for working with text. :q-quit,w-write,r-read,!-not save the changes,w-next word,b-,[-to the next sentence,]-to the previous sentence
+Some of them are used for working with files another for working with text. :q-quit,w-write,r-read,!-not save the changes,w-next word,b-,[-to the nt sentence,]-to the previous sentence
