@@ -74,3 +74,7 @@ I creating a git conflict when I tried to merge a branch with a file Readme dele
 
 
 Some of them are used for working with files another for working with text. :q-quit,w-write,r-read,!-not save the changes,w-next word,b-,[-to the next sentence,]-to the previous sentence,{-to the privious paragraph, }-to the next paragraph.
+
+At the end I thought that it will be a good practice if I will create a server and will try to connect to it.
+For this I used Virtual Box and  installed on it a Ubuntu.I decided to install server on the ubuntu and use windows to connect to the ubuntu.I configured Virtual Box in order that Ubuntu to have network.
+Then I installed server on the ubuntu by using command: sudo apt-get install openssh-server.I didn't created special user for ssh.That's why when I used putty to connect to the server, I was using Admin's account so I had the access to all files.
