@@ -22,24 +22,32 @@ Command Line Interface; CLI Editors; Setting Server Environment; Version Control
     - Reset a branch to previous commit, reset a branch to some specific commit (1 pt)
     - Restore a reset branch back to its previous state (1 pt)
     - Create a VCS alias (1 pt)
-    - GIT cherry-pick, rebase (1 pt)
-    - Create a VCS hook (1 pt)
     - Master any CLI editor (ex. VIM). Learn 10 commands' sets (a/A/i/I/o/O is one set) to prove your mastery (1 pt)
     - Create your own server (ex. virtual machine) (2 pt)
     - Create a VCS merge conflict and solve it (1 pt)
   
 
 ## Theoretical Work:
-I used VCS only in two projects,but I used it in order to push the info on the repository but I never used branches or something else.That's why this laboratory work was very interesting for me because I learned the basics of branches and other stuff like alias and hook.
-Also it was interesting because it was the first time when I connected by an SSH connection and worked remote with git.It was awesome.Also I found new things in terminal,because I never worked with terminal so much as in this laboratory work.
-I found the vim and the basics terminal commands like:ls,mkdir,cat,cp,rm and cd.Also I learned some new commands in vim.
+
+
+I used VCS only in two projects and only in order to push the info on the repository but I never used branches or something else.That's why this laboratory work was very interesting for me because I learned the basics of branches and other stuff like alias.
+
+
+Also it was interesting because it was the first time when I connected to a remote server by an SSH connection and worked remote with git,it was awesome.Also I learned a lot of useful commands in terminal that I never used before.The most effective are:ls,mkdir,cat,cp,rm and cd.Also I used in pratice a  cool tool like vim,that is also very useful in edit files from terminal.
+
 
 ##Practical Work
-I started by coneccting to a remote server via SSH, i done it when I was at laboratory work.For windows I utilizied a tool named Putty and there you just specify the host and the username,password for connecting.
-In order to connect from Ubuntu, I used the command: ssh remote_username@remote_host and after that it asks you the password.That's how I made a connection with a remote PC via SSH.
+
+
+I started by conecting to a remote server via SSH, i done it when I was at the laboratory work.For windows I used a tool named Putty where I  just specified host, username,password for connecting.
+In order to connect from Ubuntu, I used the command: ssh remote_username@remote_host and after that it asked me the password.That's how I made a connection with a remote PC via SSH.
+
+
 Next step was to intialize a remote server.For this purpose I used VCS git.In order to make a repository to a specific project you first have to go to that directory by using command from terminal : cd _pathToDirectory 
+
+
 The command for initializing a local repository by git: git init. Then it automatically creates a hiden folder .git
-where are stored all data about respotiry
+where are stored all data about respotiry.
 The third task was to create a file in repository,I used command: touch _filename , then I written my name by using command: echo "Iura Gaitur">filename or by using vim _filename, writing "Iura Gaitur" and then in order to write just pressing Esc and :wq, w-write and q-quit from file.
 In order to commit changes I had to write git add . then git commit -m"First commit"
 
