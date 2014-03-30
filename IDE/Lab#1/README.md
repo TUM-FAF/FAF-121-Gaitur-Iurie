@@ -81,7 +81,7 @@ git config --global alias.br branch
 I creating a git conflict when I tried to merge a branch with a file Readme deleted but not in the master branch.I could see the conflict description by typing git status.I resolved this conflict by deleting the file from my master branch too by using rm Readme.md and then just git add --all and commit -m"Resolved conflict".
 
 
-Some of them are used for working with files another for working with text. :q-quit,w-write,r-read,!-not save the changes,w-next word,b-,[-to the next sentence,]-to the previous sentence,{-to the privious paragraph, }-to the next paragraph.
+Next task was to learn 10 commands in vim.I saw that it could be very useful especialy when you do your work in terminal.So i read about vim and used in practice some of them.So I saw that some are used for working with files another for working with text. :q-quit,w-write,r-read,!-not save the changes,w-next word,b-,[-to the next sentence,]-to the previous sentence,{-to the privious paragraph, }-to the next paragraph.
 
 At the end I thought that it will be a good practice if I will create a server and will try to connect to it.
 For this I used Virtual Box and  installed on it a Ubuntu.I decided to install server on the ubuntu and use windows to connect to the ubuntu.I configured Virtual Box in order that Ubuntu to have network.
