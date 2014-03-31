@@ -51,10 +51,8 @@ where are stored all data about respotiry.
 The third task was to create a file in repository,I used command: touch _filename , then I written my name by using command: echo "Iura Gaitur">filename or by using vim _filename, writing "Iura Gaitur" and then in order to write just pressing Esc and :wq, w-write and q-quit from file.
 In order to commit changes I had to write git add . then git commit -m"First commit"
 
-After that i went to branches.I never used before branches but I understood their main usability by reading some articles about them.In git it's very easy to work with branches. In order to create a new branch you just write:
+After that I went to branches.I never used before branches but I understood their main usability by reading some articles about them.In git it's very easy to work with branches. In order to create a new branch you just write:
 git branch _nameBranch.If you want to change from one branch to another you just write:git checkout _nameBranch, and if you want to see all local branches then you just type git branch, and it will list you all local branches.
-
-More I was using git more I liked it.
 
 Then I set to track a remote origin on which I will be able to push. At the beginning I used my own repository,
 after that I connected to the one for laboratories needs.
