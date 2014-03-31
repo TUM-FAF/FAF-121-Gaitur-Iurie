@@ -1,5 +1,5 @@
 #Interactive Development Environments Laboratory Works
-##Laboratory Works' Content
+##Laboratory Work Nr 1
 
 
 1.Command Line Interface (CLI) and CLI editors:
