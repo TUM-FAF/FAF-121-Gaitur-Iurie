@@ -7,7 +7,7 @@ Personal Information
 **Group:** FAF-121
 
 **Github nickname:** IuraGaitur
-sss
+
 Contained courses:
 ======================
 •WP
