@@ -406,17 +406,6 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
             SelectObject(hdc, (HBRUSH)GetStockObject(WHITE_BRUSH));
             Rectangle(hdc, drawingArea.left, drawingArea.top, drawingArea.right, drawingArea.bottom);
 
-            tempRect.top = gradientRect.top;
-            tempRect.bottom = gradientRect.bottom;
-            for(int i = 0; i < (gradientRect.right - gradientRect.left); i++) {
-                int green;
-                green = i * 255 / (gradientRect.right - gradientRect.left);
-                tempRect.left = gradientRect.left + i;
-                tempRect.right = gradientRect.left + i + 1;
-                hBrush = CreateSolidBrush(RGB(0, green, 0));
-                FillRect(hdc, &tempRect, hBrush);
-                DeleteObject(hBrush);
-            }
 
             EndPaint(hwnd, &ps);
             break;
