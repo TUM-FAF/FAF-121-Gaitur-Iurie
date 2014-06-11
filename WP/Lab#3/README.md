@@ -42,10 +42,9 @@ Basic of Working with Mouse. GDI Primitives. Bezier Curve
 
 
 ## Development
- 
- It took me a looooot of time in order to do this laboratory work. But thanks to god, I was able to finish it.
+It took me a looooot of time in order to do this laboratory work. But thanks to god, I was able to finish it.
 It was one of the most tough laboratories that I written, because somehow it did not attracted me. Don’t know why . 
-Now I will tell how I made this laboratory work. I started from reading about drawing lines and simple objects like rectangle and ellipse from Petzold and Google. I implemented this. Then I delimited the region where I can draw and where cannot. Next step was Bezier and eraser. Bezier was easy to implement , cause we need 3 points in order to draw it. So I stored data when Bezier tool is active and user click in the paint region, in array and when 3 times user click  we draw it.
+Now I will tell how I made this laboratory work. I started from reading about drawing lines and simple objects like       rectangle and ellipse from Petzold and Google. I implemented this. Then I delimited the region where I can draw and       where cannot. Next step was Bezier and eraser. Bezier was easy to implement , cause we need 3 points in order to draw     it. So I stored data when Bezier tool is active and user click in the paint region, in array and when 3 times user click  we draw it.
 But with eraser I had some conflicts, then after some time someone help me with implementing the eraser.
 Then I had to put all this things with data, like border, filling colors. I saw at someone that delimited the tools in 2 group boxes, so I thought that it will be a great idea if I will delimit it too, because in this way is more user friendly. It took a lot of time with filling color, borders too.
 Especially long, took to make the report :D. 
