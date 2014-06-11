@@ -69,4 +69,4 @@ Then I created a custom button, it wasn’t a difficult task because on internet
  After that I written a test that was testing a function that return a list of questions.
 And I tested if it will not return null, by this mean that the path to the file is correct.
 
-  At the end I want to say that tasks and idea of the laboratory work was very interesting and also I would like to thank you for inventing such great labs.
+  At the end I want to say that tasks and idea of the laboratory work were very interesting and also I would like to thank you for inventing such great labs.
