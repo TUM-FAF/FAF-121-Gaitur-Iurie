@@ -1,0 +1,5 @@
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\Models\bin\Debug\Models.dll
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\Models\bin\Debug\Models.pdb
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\Models\obj\Debug\Models.dll
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\Models\obj\Debug\Models.pdb
+C:\Users\Iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache

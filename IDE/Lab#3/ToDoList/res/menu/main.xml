@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item android:id="@+id/MustRead"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/must_read" 
+        android:icon="@drawable/ic_book"/>
+     <item android:id="@+id/AddCategory"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/add_category" 
+        android:icon="@drawable/ic_category"/>
+
+</menu>

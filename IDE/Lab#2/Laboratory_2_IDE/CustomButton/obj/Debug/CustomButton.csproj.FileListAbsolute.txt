@@ -1,0 +1,7 @@
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\CustomButton\bin\Debug\CustomButton.dll
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\CustomButton\bin\Debug\CustomButton.pdb
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\CustomButton\obj\Debug\CustomButton.SpecialButton.resources
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\CustomButton\obj\Debug\CustomButton.csproj.GenerateResource.Cache
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\CustomButton\obj\Debug\CustomButton.dll
+c:\users\iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\CustomButton\obj\Debug\CustomButton.pdb
+C:\Users\Iura\documents\visual studio 2010\Projects\Laboratory_2_IDE\CustomButton\obj\Debug\CustomButton.Properties.Resources.resources

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<quiz>
+  <question>
+    What is the most powefull republic?
+    <answers>
+      <correctAnswer>Republic of the dark lord</correctAnswer>
+      <wrongAnswer>What is a republic</wrongAnswer>
+      <wrongAnswer>Moldova's of course</wrongAnswer>
+      <wrongAnswer>Indigna</wrongAnswer>
+    </answers>
+  </question>
+  <question>
+    Who killed Skywalker's wife?
+    <answers>
+      <wrongAnswer>Sith lord</wrongAnswer>
+      <wrongAnswer>Darth vader</wrongAnswer>
+      <correctAnswer>She died by herself</correctAnswer>
+      <wrongAnswer>Ciubaca</wrongAnswer>
+    
+  </answers>
+  </question>
+  <question>
+    Droid's model of the Skywallker?
+    <answers>
+      <correctAnswer>3PO</correctAnswer>
+      <wrongAnswer>3PO3p</wrongAnswer>
+      <wrongAnswer>Ciubaca</wrongAnswer>
+      <wrongAnswer>He had a droid?</wrongAnswer>
+    </answers>
+  </question>
+  <question>
+    Skywalker's teacher name?
+    <answers>
+      <wrongAnswer>Kvai Gon</wrongAnswer>
+      <wrongAnswer>Master Yoda</wrongAnswer>
+      <correctAnswer>Obiwan Kenobi</correctAnswer>
+      <wrongAnswer>His mother</wrongAnswer>
+    
+  
+  
+  
+  </answers>
+  </question>
+  <question>
+    Do you liked Star war?
+    <answers>
+      <correctAnswer>Of course</correctAnswer>
+      <wrongAnswer>A little</wrongAnswer>
+      <wrongAnswer>Not very</wrongAnswer>
+      <wrongAnswer>What is Star Wars?</wrongAnswer>
+    </answers>
+  </question>
+</quiz>

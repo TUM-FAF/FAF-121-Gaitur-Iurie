@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/list_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:clickable="true">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        
+        android:background="@drawable/layout_add_task_bg" >
+
+        <ImageButton
+            android:id="@+id/refresh_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_refresh"
+            android:background="@android:color/transparent"
+            android:onClick="OnClick" />
+
+        <EditText
+            android:id="@+id/txt_name_task"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:ems="10"
+            android:hint="Add task.."
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/layout_add_task_text" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/add_task_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_add_task"
+            android:background="@android:color/transparent"
+            android:onClick="OnClick" />
+        
+    </LinearLayout>
+
+</RelativeLayout>
