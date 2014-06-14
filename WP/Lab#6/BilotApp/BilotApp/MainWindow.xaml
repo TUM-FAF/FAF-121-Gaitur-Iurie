@@ -1,0 +1,33 @@
+﻿<Window x:Class="BilotApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bilot" Height="350" Width="380" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" Background="{x:Null}" Icon="/BilotApp;component/Images/1402806433_18054.ico">
+    <Border CornerRadius="12,12,12,12" BorderThickness="7">
+        <Grid Background="#ff6b6b6b">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*"></RowDefinition>
+                <RowDefinition Height="281*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Canvas MouseLeftButtonDown="MouseDown">
+                <Label Content="Bilot pentru Moldoveni" Height="42" HorizontalAlignment="Right" Name="app_title" FontWeight="Bold" FontSize="14" />
+                <Button Content="X" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="5" FontSize="7"
+                  Width="29" Height="17" Padding="0" Click="Button_Click" Canvas.Left="324" Canvas.Top="0" />
+                <Canvas.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF5F5F5F" Offset="1" />
+                        <GradientStop Color="White" Offset="0" />
+                    </LinearGradientBrush>
+                </Canvas.Background>
+            </Canvas>
+            <StackPanel Name="container" Margin="0,0,6,0" Grid.Row="1" />
+        </Grid>
+        <Border.BorderBrush>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0.016" />
+                <GradientStop Color="#FF3E3E3E" Offset="0.114" />
+                <GradientStop Color="#FF3E3E3E" />
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+    </Border>
+</Window>
