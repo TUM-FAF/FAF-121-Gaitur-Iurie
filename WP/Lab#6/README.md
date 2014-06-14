@@ -42,5 +42,5 @@ Development:
 -----------
 
 It didn't took a lot of time to do this application because I'm a little experienced with C# and Forms.
-More time I used for thinking logic of how to programatically create labels,textboxes and arrange them in dependence of the number of players.
-I will say that I also gained some experice working with WPF.I realized that there are some controls better than in WinForms, others are not so evoluated as in Winforms.
+More time I used on thinking the workflow and function in order to programatically create labels,textboxes and arrange them in dependence of the number of players.
+I will say that I also gained some experice working with WPF.I realized that some controls are better elaborated than in WinForms, others are not so evoluated as in Winforms.
