@@ -1,6 +1,4 @@
 #Interactive Development Environments Laboratory Works
-##Laboratory Work Nr 1
-
 
 
 
