@@ -20,14 +20,13 @@
   -Use a different from default HTML templating engine (1pt)
 
 
-#
-## Screenshots and Video
 
+## Screenshots 
 
-
-    ![Screenshot1](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Gaitur-Iurie/master/IDE/Lab%234/first.png)
+  ![Screenshot1](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Gaitur-Iurie/master/IDE/Lab%234/first.png)
     
-    ![Screenshot1](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Gaitur-Iurie/master/IDE/Lab%234/second.png)
+    
+  ![Screenshot2](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Gaitur-Iurie/master/IDE/Lab%234/second.png)
     
 
 
